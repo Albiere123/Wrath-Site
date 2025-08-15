@@ -1,0 +1,29 @@
+export default `<!DOCTYPE html><html lang="en" data-beasties-container><head>
+  <meta charset="utf-8">
+  <title>WrathCode</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="wrathcode.png">
+  <style>body {
+    background-color: rgb(1, 0, 0);
+    font-size: 121%;
+    transition: var(--t, 0s);
+    color: var(--cor-h, black);
+
+}</style>
+<link rel="stylesheet" href="styles.css"><style ng-app-id="ng">.header[_ngcontent-ng-c1189447934]{position:absolute;display:inline;gap:10px;color:#fff;font-size:2.5vh;font-style:bold;cursor:pointer;background-color:red;z-index:1;transition:.5s}.ad[_ngcontent-ng-c1189447934]{z-index:0;position:absolute;background-color:var(--cor-h, red);top:.2vh;height:5.7vh;width:100%;left:0vh;transition:var(--t, 0s)}header[_ngcontent-ng-c1189447934]{position:absolute;display:inline}.hd[_ngcontent-ng-c1189447934]{position:absolute;background-color:#a80000;padding:1.4vh 2.5vh;border-radius:3%;transition:.5s}.n1[_ngcontent-ng-c1189447934]{left:0vh}.n2[_ngcontent-ng-c1189447934]{left:10vh}.n3[_ngcontent-ng-c1189447934]{left:20vh}.header[_ngcontent-ng-c1189447934]:hover{font-size:2.7vh}.bv[_ngcontent-ng-c1189447934]{position:absolute;top:14vh;left:73vh;color:#fff;font-size:6vh;transition:opacity 1s ease}</style></head>
+<body><!--nghm-->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('imgMenu');
+      const element = document.getElementById('devs');
+
+      menu.classList.toggle('expandir1');
+      element.classList.toggle('ativo');
+      element.classList.toggle('nãoativo');
+    }
+  </script>
+  <app-root ng-version="20.1.7" ngh="1" ng-server-context="ssg"><router-outlet></router-outlet><app-pag2 _nghost-ng-c1189447934 ngh="0"><div _ngcontent-ng-c1189447934 id="head" class="header ad"><header _ngcontent-ng-c1189447934><div _ngcontent-ng-c1189447934 id="colorBtn" onclick="document.location='inicio'" class="header hd n1">Início</div><div _ngcontent-ng-c1189447934 id="colorBtn" onclick="document.location='suporte'" class="header hd n2">Suporte</div></header></div><div _ngcontent-ng-c1189447934 class="bv">Seja Bem Vindo Ao Suporte.</div></app-pag2><!----></app-root>
+<script src="main.js" type="module"></script>
+
+<script id="ng-state" type="application/json">{"__nghData__":[{},{"c":{"0":[{"i":"c1189447934","r":1}]}}]}</script></body></html>`;

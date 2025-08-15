@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-beasties-container="">
+<head>
+  <meta charset="utf-8">
+  <title>WrathCode</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="wrathcode.png">
+  <style>body {
+    background-color: rgb(1, 0, 0);
+    font-size: 121%;
+    transition: var(--t, 0s);
+    color: var(--cor-h, black);
+
+}</style>
+<link rel="stylesheet" href="styles.css"></head>
+<body ngcm="">
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('imgMenu');
+      const element = document.getElementById('devs');
+
+      menu.classList.toggle('expandir1');
+      element.classList.toggle('ativo');
+      element.classList.toggle('nãoativo');
+    }
+  </script>
+  <app-root></app-root>
+<script src="main.js" type="module"></script></body>
+</html>
